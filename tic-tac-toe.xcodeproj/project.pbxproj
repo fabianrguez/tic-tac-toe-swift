@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BE745F3203EBB3900077B75 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE745F0203EBB3800077B75 /* X.png */; };
+		0BE745F4203EBB3900077B75 /* Tablero.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE745F1203EBB3800077B75 /* Tablero.png */; };
+		0BE745F5203EBB3900077B75 /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BE745F2203EBB3800077B75 /* O.png */; };
+		0BE745F7203ED6FD00077B75 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE745F6203ED6FD00077B75 /* PlayViewController.swift */; };
+		0BE745F9203ED71200077B75 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE745F8203ED71200077B75 /* InstructionsViewController.swift */; };
+		0BE745FB203ED71D00077B75 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE745FA203ED71D00077B75 /* CreditsViewController.swift */; };
 		0BE9CCC1203D8F9600FF35CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9CCC0203D8F9600FF35CC /* AppDelegate.swift */; };
 		0BE9CCC3203D8F9600FF35CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE9CCC2203D8F9600FF35CC /* ViewController.swift */; };
 		0BE9CCC6203D8F9600FF35CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE9CCC4203D8F9600FF35CC /* Main.storyboard */; };
@@ -15,6 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BE745F0203EBB3800077B75 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = X.png; path = "../../../Downloads/RECURSOS APLICACION 2/X.png"; sourceTree = "<group>"; };
+		0BE745F1203EBB3800077B75 /* Tablero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tablero.png; path = "../../../Downloads/RECURSOS APLICACION 2/Tablero.png"; sourceTree = "<group>"; };
+		0BE745F2203EBB3800077B75 /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = O.png; path = "../../../Downloads/RECURSOS APLICACION 2/O.png"; sourceTree = "<group>"; };
+		0BE745F6203ED6FD00077B75 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		0BE745F8203ED71200077B75 /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		0BE745FA203ED71D00077B75 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsViewController.swift; sourceTree = "<group>"; };
 		0BE9CCBD203D8F9500FF35CC /* tic-tac-toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tic-tac-toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BE9CCC0203D8F9600FF35CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BE9CCC2203D8F9600FF35CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +68,16 @@
 			children = (
 				0BE9CCC0203D8F9600FF35CC /* AppDelegate.swift */,
 				0BE9CCC2203D8F9600FF35CC /* ViewController.swift */,
+				0BE745F6203ED6FD00077B75 /* PlayViewController.swift */,
+				0BE745F8203ED71200077B75 /* InstructionsViewController.swift */,
+				0BE745FA203ED71D00077B75 /* CreditsViewController.swift */,
 				0BE9CCC4203D8F9600FF35CC /* Main.storyboard */,
 				0BE9CCC7203D8F9600FF35CC /* Assets.xcassets */,
 				0BE9CCC9203D8F9600FF35CC /* LaunchScreen.storyboard */,
 				0BE9CCCC203D8F9600FF35CC /* Info.plist */,
+				0BE745F2203EBB3800077B75 /* O.png */,
+				0BE745F1203EBB3800077B75 /* Tablero.png */,
+				0BE745F0203EBB3800077B75 /* X.png */,
 			);
 			path = "tic-tac-toe";
 			sourceTree = "<group>";
@@ -123,7 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BE745F3203EBB3900077B75 /* X.png in Resources */,
 				0BE9CCCB203D8F9600FF35CC /* LaunchScreen.storyboard in Resources */,
+				0BE745F4203EBB3900077B75 /* Tablero.png in Resources */,
+				0BE745F5203EBB3900077B75 /* O.png in Resources */,
 				0BE9CCC8203D8F9600FF35CC /* Assets.xcassets in Resources */,
 				0BE9CCC6203D8F9600FF35CC /* Main.storyboard in Resources */,
 			);
@@ -137,7 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BE9CCC3203D8F9600FF35CC /* ViewController.swift in Sources */,
+				0BE745F7203ED6FD00077B75 /* PlayViewController.swift in Sources */,
+				0BE745F9203ED71200077B75 /* InstructionsViewController.swift in Sources */,
 				0BE9CCC1203D8F9600FF35CC /* AppDelegate.swift in Sources */,
+				0BE745FB203ED71D00077B75 /* CreditsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +305,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian.rodriguez.tic-tac-toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -296,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fabian.rodriguez.tic-tac-toe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
